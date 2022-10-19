@@ -1,0 +1,33 @@
+.background-img {
+    background-image: url("../../assets/images/img-news-and-article.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.navigation-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar h1 {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.navigation-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+    /* gap: 6vw; */
+}
+
+.navigation-bar ul li input {
+    padding: 1.15em .5em;
+    font-size: calc(8px + (24 - 8) * (100vw - 320px) / (1440 - 320));
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}

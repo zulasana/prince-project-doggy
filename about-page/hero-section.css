@@ -1,0 +1,24 @@
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6em 0;
+
+}
+
+.hero-section img {
+    width: 30%;
+    aspect-ratio: 1.2;
+}
+
+.hero-section div {
+    width: 45%;
+}
+
+.hero-section div h1 {
+    margin: .3em 0;
+}
+
+.hero-section div p:first-of-type {
+    font-size: 1.5rem;
+}
