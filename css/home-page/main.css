@@ -1,0 +1,11 @@
+@import url(../css-reset.css);
+@import url("../variables.css");
+@import url("../base.css");
+@import url("../element-btn.css");
+@import url("../header.css");
+@import url("hero_section.css");
+@import url("our_introduction.css");
+@import url("pet_section.css");
+@import url("news_and_aricale.css");
+@import url("get_in_touch.css");
+@import url("../footer.css");

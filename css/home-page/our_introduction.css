@@ -1,0 +1,38 @@
+.our-introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6em 6.25em 7em 4em;
+
+}
+
+.our-introduction .introduction {
+    width: 45%;
+}
+
+.our-introduction .introduction p {
+
+    padding: 1em 0;
+}
+
+.our-introduction .introduction p:first-child {
+    font-size: 1.5em;
+    width: 10em;
+    padding-top: 0;
+}
+
+.our-introduction>img {
+    background-image: url(../../assets/images/img-2-cat-backgroud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    margin-left: 4em;
+    width: 30vw;
+    aspect-ratio: 1.2;
+
+
+}
+
+.our-introduction .introduction button {
+    margin-top: 1em;
+}

@@ -1,0 +1,77 @@
+/* INFO: import font form outer source  */
+
+/* primary font "dosis"*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap');
+/* secondary font "Denk"*/
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+/*"Popins"*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    /* INFO: for the fludic font (mobile + (desktop - mobile)* (viewport width - mobile screen size) / (Desktop screen size - mobile screen size) */
+    font-size: calc(6px + (24 - 8) * (100vw - 320px) / (1440 - 320));
+    /* font-size: 1.5rem; */
+    text-decoration: none;
+    color: var(--color-text-dark);
+}
+
+h1 {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: calc(40px + (64 - 40) * (100vw - 320px) / (1440 - 320));
+    /* font-size: 4rem; */
+    line-height: 1.3em;
+    color: var(--color-primary-dark);
+    margin: 0;
+}
+
+h2 {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: calc(20px + (40 - 20) * (100vw - 320px) / (1440 - 320));
+    /* font-size: 2.5rem; */
+    line-height: 1.2em;
+    color: var(--color-text-dark);
+}
+
+h3 {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.15em;
+    color: var(--color-text-dark);
+}
+
+p {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: calc(8px + (16 - 8) * (100vw - 320px) / (1440 - 320));
+    /* font-size: 1rem; */
+    line-height: 1.5em;
+    color: var(--color-text-dark);
+    text-align: justify;
+}
+
+label {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4em;
+    color: var(--color-lable);
+}
