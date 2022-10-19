@@ -1,0 +1,30 @@
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--color-background-primary);
+    padding: 5.5em 6em;
+}
+
+.get-in-touch .information {
+    width: 50%;
+}
+
+.get-in-touch .information h1 {
+    line-height: 1.8em;
+}
+
+.get-in-touch .information button {
+    margin-top: 2em;
+}
+
+/* FIXME: set proper width for responsiveness */
+.get-in-touch>img {
+    width: 40%;
+    aspect-ratio: 2;
+}
+
+
+footer {
+    background-color: var(--color-background-primary);
+}

@@ -1,0 +1,22 @@
+:root {
+
+    /* color variables */
+
+    --color-primary-dark: rgba(5, 5, 72, 1);
+    --color-primary-light: rgba(255, 129, 82, 1);
+    --color-background-primary: rgba(248, 248, 255, 1);
+    --color-background-secondary: rgba(235, 235, 255, 1);
+    --color-background-light: rgba(225, 129, 82, 0.07);
+    --color-text-dark: rgba(0, 0, 0, 1);
+    --color-text-medium: rgba(139, 139, 139, 1);
+    --color-text-light: rgba(255, 255, 255, 1);
+    --color-text: rgba(164, 164, 164, 1);
+    --color-lable: rgba(72, 72, 72, 1);
+    --color-datetime-light: rgba(105, 105, 105, 1);
+
+    /* font family */
+
+    --font-primary: 'Dosis', sans-serif;
+    --font-secondary: 'Denk One', sans-serif;
+    --font-tertiary: 'Poppins', sans-serif;
+}
